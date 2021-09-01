@@ -1,0 +1,46 @@
+.footer .logo a{
+    color: #555555;
+    text-decoration: none;
+    list-style: none;
+}
+.footer .logo a:hover{
+    color:#008080;
+}
+
+.logo p{
+    text-align:justify;
+}
+
+.footer{
+    color: #555555;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .logo {width:35%;}
+.footer .contact{width:25%;}
+.footer .follow{width:25%;}
+
+.footer .follow .fitt{
+    display: flex; 
+    justify-content: flex-start;
+}
+.footer .follow .fitt a{
+    width: 45px;
+}
+
+.footer .contact .home{     display: flex;      justify-content: flex-start; }
+.footer .contact .call{     display: flex;      justify-content: flex-start; }
+.footer .contact .mail{     display: flex;      justify-content: flex-start; }
+
+.footer .contact .icon{
+    padding-right: 8px;
+}
+.copyright{
+    margin: 0 auto;
+    padding: 12px 0;
+}
+.copyright .content{
+    text-align: center;
+}
